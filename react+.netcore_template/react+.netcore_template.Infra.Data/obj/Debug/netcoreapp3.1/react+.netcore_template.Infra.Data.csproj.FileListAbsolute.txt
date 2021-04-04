@@ -1,0 +1,5 @@
+C:\react-.netCore_template\react+.netcore_template\react+.netcore_template.Infra.Data\bin\Debug\netcoreapp3.1\react+.netcore_template.Application.dll
+C:\react-.netCore_template\react+.netcore_template\react+.netcore_template.Infra.Data\bin\Debug\netcoreapp3.1\react+.netcore_template.Domain.dll
+C:\react-.netCore_template\react+.netcore_template\react+.netcore_template.Infra.Data\obj\Debug\netcoreapp3.1\react+.netcore_template.Infra.Data.csprojAssemblyReference.cache
+C:\react-.netCore_template\react+.netcore_template\react+.netcore_template.Infra.Data\obj\Debug\netcoreapp3.1\react+.netcore_template.Infra.Data.AssemblyInfoInputs.cache
+C:\react-.netCore_template\react+.netcore_template\react+.netcore_template.Infra.Data\obj\Debug\netcoreapp3.1\react+.netcore_template.Infra.Data.AssemblyInfo.cs

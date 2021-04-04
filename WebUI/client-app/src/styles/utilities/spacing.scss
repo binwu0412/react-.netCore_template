@@ -1,0 +1,147 @@
+$horizontalUnit: 8px;
+$verticalUnit: 3px;
+
+.mr {
+  &-1 {
+    margin-right: $horizontalUnit !important;
+  }
+
+  &-2 {
+    margin-right: $horizontalUnit * 2 !important;
+  }
+
+  &-3 {
+    margin-right: $horizontalUnit * 3 !important;
+  }
+
+  &-4 {
+    margin-right: $horizontalUnit * 4 !important;
+  }
+}
+
+.ml {
+  &-1 {
+    margin-left: $horizontalUnit !important;
+  }
+
+  &-2 {
+    margin-left: $horizontalUnit * 2 !important;
+  }
+
+  &-3 {
+    margin-left: $horizontalUnit * 3 !important;
+  }
+
+  &-4 {
+    margin-left: $horizontalUnit * 4 !important;
+  }
+
+  &-5 {
+    margin-left: $horizontalUnit * 5 !important;
+  }
+}
+
+.mb {
+  &-1 {
+    margin-right: $verticalUnit !important;
+  }
+
+  &-2 {
+    margin-right: $verticalUnit* 2 !important;
+  }
+
+  &-3 {
+    margin-right: $verticalUnit * 3 !important;
+  }
+
+  &-4 {
+    margin-right: $verticalUnit * 4 !important;
+  }
+}
+
+.mt {
+  &-1 {
+    margin-top: $verticalUnit !important;
+  }
+
+  &-2 {
+    margin-top: $verticalUnit* 2 !important;
+  }
+
+  &-3 {
+    margin-top: $verticalUnit * 3 !important;
+  }
+
+  &-4 {
+    margin-top: $verticalUnit * 4 !important;
+  }
+}
+
+.pt {
+  &-0 {
+    padding-top: 0px !important;
+  }
+  &-10per {
+    padding-top: 10vh !important;
+  }
+}
+
+.pb {
+  &-0 {
+    padding-bottom: 0px !important;
+  }
+}
+
+.p {
+  &-1 {
+    padding: $verticalUnit !important;
+  }
+
+  &-2 {
+    padding: $verticalUnit * 2 !important;
+  }
+
+  &-3 {
+    padding: $verticalUnit * 3 !important;
+  }
+
+  &-4 {
+    padding: $verticalUnit * 4 !important;
+  }
+}
+
+.pl {
+  &-1 {
+    padding-left: $horizontalUnit !important;
+  }
+
+  &-2 {
+    padding-left: $horizontalUnit * 2 !important;
+  }
+
+  &-3 {
+    padding-left: $horizontalUnit * 3 !important;
+  }
+
+  &-4 {
+    padding-left: $horizontalUnit * 4 !important;
+  }
+}
+
+.pr {
+  &-1 {
+    padding-right: $horizontalUnit !important;
+  }
+
+  &-2 {
+    padding-right: $horizontalUnit * 2 !important;
+  }
+
+  &-3 {
+    padding-right: $horizontalUnit * 3 !important;
+  }
+
+  &-4 {
+    padding-right: $horizontalUnit * 4 !important;
+  }
+}

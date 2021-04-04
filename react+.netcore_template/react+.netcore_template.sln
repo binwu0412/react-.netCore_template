@@ -1,0 +1,75 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31112.23
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Web", "Web", "{B3DA3368-6EF9-478A-9221-BE199C313A4F}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Application", "Application", "{86254FCC-EF8E-40B7-9AE4-93822BA0FDA3}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Domain", "Domain", "{BD439B9F-773C-4017-9F5E-5A5E8D34966A}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Infra.Data", "Infra.Data", "{A714A939-B9AF-4859-9A35-3D5B8BCF1655}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Infra.IoC", "Infra.IoC", "{75E0B32C-B0F6-4ECB-85C3-299D9598831A}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Infra.Cache", "Infra.Cache", "{3526599E-2EE0-4C86-96ED-F99CF5FAF0BB}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "react+.netcore_template.Application", "react+.netcore_template.Application\react+.netcore_template.Application.csproj", "{757B6055-2CA0-4B3A-9753-33FBCAD3CE57}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "react+.netcore_template.Domain", "react+.netcore_template.Domain\react+.netcore_template.Domain.csproj", "{5184C110-463D-4EF3-BB67-90F5988E6E65}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "react+.netcore_template.Infra.Data", "react+.netcore_template.Infra.Data\react+.netcore_template.Infra.Data.csproj", "{4C5B9DD8-8E56-4A42-9613-95D090D15CA7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "react+.netcore_template.Infra.IoC", "react+.netcore_template.Infra.IoC\react+.netcore_template.Infra.IoC.csproj", "{CEE15BA1-4620-4946-810E-EBCE47D128F4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "react+.netcore_template.Web.BenefitCalculator", "react+.netcore_template.Web.BenefitCalculator\react+.netcore_template.Web.BenefitCalculator.csproj", "{DE0BA2D8-9BE4-4B87-AA56-987A5AEE91BF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "react+.netcore_template.Infra.Cache", "react+.netcore_template.Infra.Cache\react+.netcore_template.Infra.Cache.csproj", "{582AA3E4-CA48-45BF-A426-88E8B5B86499}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{757B6055-2CA0-4B3A-9753-33FBCAD3CE57}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{757B6055-2CA0-4B3A-9753-33FBCAD3CE57}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{757B6055-2CA0-4B3A-9753-33FBCAD3CE57}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{757B6055-2CA0-4B3A-9753-33FBCAD3CE57}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5184C110-463D-4EF3-BB67-90F5988E6E65}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5184C110-463D-4EF3-BB67-90F5988E6E65}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5184C110-463D-4EF3-BB67-90F5988E6E65}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5184C110-463D-4EF3-BB67-90F5988E6E65}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4C5B9DD8-8E56-4A42-9613-95D090D15CA7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4C5B9DD8-8E56-4A42-9613-95D090D15CA7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4C5B9DD8-8E56-4A42-9613-95D090D15CA7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4C5B9DD8-8E56-4A42-9613-95D090D15CA7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CEE15BA1-4620-4946-810E-EBCE47D128F4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CEE15BA1-4620-4946-810E-EBCE47D128F4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CEE15BA1-4620-4946-810E-EBCE47D128F4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CEE15BA1-4620-4946-810E-EBCE47D128F4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DE0BA2D8-9BE4-4B87-AA56-987A5AEE91BF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DE0BA2D8-9BE4-4B87-AA56-987A5AEE91BF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DE0BA2D8-9BE4-4B87-AA56-987A5AEE91BF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DE0BA2D8-9BE4-4B87-AA56-987A5AEE91BF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{582AA3E4-CA48-45BF-A426-88E8B5B86499}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{582AA3E4-CA48-45BF-A426-88E8B5B86499}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{582AA3E4-CA48-45BF-A426-88E8B5B86499}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{582AA3E4-CA48-45BF-A426-88E8B5B86499}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{757B6055-2CA0-4B3A-9753-33FBCAD3CE57} = {86254FCC-EF8E-40B7-9AE4-93822BA0FDA3}
+		{5184C110-463D-4EF3-BB67-90F5988E6E65} = {BD439B9F-773C-4017-9F5E-5A5E8D34966A}
+		{4C5B9DD8-8E56-4A42-9613-95D090D15CA7} = {A714A939-B9AF-4859-9A35-3D5B8BCF1655}
+		{CEE15BA1-4620-4946-810E-EBCE47D128F4} = {75E0B32C-B0F6-4ECB-85C3-299D9598831A}
+		{DE0BA2D8-9BE4-4B87-AA56-987A5AEE91BF} = {B3DA3368-6EF9-478A-9221-BE199C313A4F}
+		{582AA3E4-CA48-45BF-A426-88E8B5B86499} = {3526599E-2EE0-4C86-96ED-F99CF5FAF0BB}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {C6E6B1D2-13E7-4EC7-B835-672894D73543}
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,25 @@
+.donutPlot {
+  &__plot-container {
+    position: relative;
+  }
+
+  &__plot {
+    width: 60%; 
+    position: absolute; 
+    transform: translate(-50%, -50%); 
+    top: 50%; 
+    left: 50%;
+    align-items: center;
+  }
+
+  &__text-container {
+    position: absolute; 
+    transform: translate(-50%, -50%); 
+    top: 50%; 
+    left: 50%;
+  }
+
+  &__highlight-text {
+    font-size: 30px;
+  }
+}

@@ -1,0 +1,9 @@
+.app-route {
+  display: flex; 
+  flex-direction: row; 
+  width: 100vw;
+
+  &__switch {
+    flex: 1
+  }
+}

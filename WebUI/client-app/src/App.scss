@@ -1,0 +1,20 @@
+// components
+@import "./styles/components/Form";
+@import "./styles/components/AppRoute";
+
+// layout
+@import "./styles/layouts/page";
+
+// pages
+@import "./styles/pages/EmployeeBenefitPage";
+
+// utilities
+@import "./styles/utilities/spacing";
+@import "./styles/utilities/position";
+@import "./styles/utilities/size.scss";
+
+
+.App {
+  text-align: center;
+}
+

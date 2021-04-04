@@ -1,0 +1,488 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\react-.netCore_template\\react+.netcore_template\\react+.netcore_template.Web.BenefitCalculator\\react+.netcore_template.Web.BenefitCalculator.csproj": {}
+  },
+  "projects": {
+    "C:\\react-.netCore_template\\react+.netcore_template\\react+.netcore_template.Application\\react+.netcore_template.Application.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\react-.netCore_template\\react+.netcore_template\\react+.netcore_template.Application\\react+.netcore_template.Application.csproj",
+        "projectName": "react+.netcore_template.Application",
+        "projectPath": "C:\\react-.netCore_template\\react+.netcore_template\\react+.netcore_template.Application\\react+.netcore_template.Application.csproj",
+        "packagesPath": "C:\\Users\\waowao\\.nuget\\packages\\",
+        "outputPath": "C:\\react-.netCore_template\\react+.netcore_template\\react+.netcore_template.Application\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
+          "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\",
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\waowao\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "targetAlias": "netcoreapp3.1",
+            "projectReferences": {
+              "C:\\react-.netCore_template\\react+.netcore_template\\react+.netcore_template.Domain\\react+.netcore_template.Domain.csproj": {
+                "projectPath": "C:\\react-.netCore_template\\react+.netcore_template\\react+.netcore_template.Domain\\react+.netcore_template.Domain.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
+          "dependencies": {
+            "AutoMapper": {
+              "target": "Package",
+              "version": "[10.1.1, )"
+            },
+            "MediatR": {
+              "target": "Package",
+              "version": "[9.0.0, )"
+            },
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[3.1.13, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.201\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\react-.netCore_template\\react+.netcore_template\\react+.netcore_template.Domain\\react+.netcore_template.Domain.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\react-.netCore_template\\react+.netcore_template\\react+.netcore_template.Domain\\react+.netcore_template.Domain.csproj",
+        "projectName": "react+.netcore_template.Domain",
+        "projectPath": "C:\\react-.netCore_template\\react+.netcore_template\\react+.netcore_template.Domain\\react+.netcore_template.Domain.csproj",
+        "packagesPath": "C:\\Users\\waowao\\.nuget\\packages\\",
+        "outputPath": "C:\\react-.netCore_template\\react+.netcore_template\\react+.netcore_template.Domain\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
+          "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\",
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\waowao\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "targetAlias": "netcoreapp3.1",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.201\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\react-.netCore_template\\react+.netcore_template\\react+.netcore_template.Infra.Cache\\react+.netcore_template.Infra.Cache.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\react-.netCore_template\\react+.netcore_template\\react+.netcore_template.Infra.Cache\\react+.netcore_template.Infra.Cache.csproj",
+        "projectName": "react+.netcore_template.Infra.Cache",
+        "projectPath": "C:\\react-.netCore_template\\react+.netcore_template\\react+.netcore_template.Infra.Cache\\react+.netcore_template.Infra.Cache.csproj",
+        "packagesPath": "C:\\Users\\waowao\\.nuget\\packages\\",
+        "outputPath": "C:\\react-.netCore_template\\react+.netcore_template\\react+.netcore_template.Infra.Cache\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
+          "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\",
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\waowao\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "targetAlias": "netcoreapp3.1",
+            "projectReferences": {
+              "C:\\react-.netCore_template\\react+.netcore_template\\react+.netcore_template.Application\\react+.netcore_template.Application.csproj": {
+                "projectPath": "C:\\react-.netCore_template\\react+.netcore_template\\react+.netcore_template.Application\\react+.netcore_template.Application.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
+          "dependencies": {
+            "Newtonsoft.Json": {
+              "target": "Package",
+              "version": "[13.0.1, )"
+            },
+            "StackExchange.Redis": {
+              "target": "Package",
+              "version": "[2.2.4, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.201\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\react-.netCore_template\\react+.netcore_template\\react+.netcore_template.Infra.Data\\react+.netcore_template.Infra.Data.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\react-.netCore_template\\react+.netcore_template\\react+.netcore_template.Infra.Data\\react+.netcore_template.Infra.Data.csproj",
+        "projectName": "react+.netcore_template.Infra.Data",
+        "projectPath": "C:\\react-.netCore_template\\react+.netcore_template\\react+.netcore_template.Infra.Data\\react+.netcore_template.Infra.Data.csproj",
+        "packagesPath": "C:\\Users\\waowao\\.nuget\\packages\\",
+        "outputPath": "C:\\react-.netCore_template\\react+.netcore_template\\react+.netcore_template.Infra.Data\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
+          "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\",
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\waowao\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "targetAlias": "netcoreapp3.1",
+            "projectReferences": {
+              "C:\\react-.netCore_template\\react+.netcore_template\\react+.netcore_template.Application\\react+.netcore_template.Application.csproj": {
+                "projectPath": "C:\\react-.netCore_template\\react+.netcore_template\\react+.netcore_template.Application\\react+.netcore_template.Application.csproj"
+              },
+              "C:\\react-.netCore_template\\react+.netcore_template\\react+.netcore_template.Domain\\react+.netcore_template.Domain.csproj": {
+                "projectPath": "C:\\react-.netCore_template\\react+.netcore_template\\react+.netcore_template.Domain\\react+.netcore_template.Domain.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
+          "dependencies": {
+            "AutoMapper": {
+              "target": "Package",
+              "version": "[10.1.1, )"
+            },
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[3.1.13, )"
+            },
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[3.1.13, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[3.1.13, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[3.1.13, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.201\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\react-.netCore_template\\react+.netcore_template\\react+.netcore_template.Infra.IoC\\react+.netcore_template.Infra.IoC.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\react-.netCore_template\\react+.netcore_template\\react+.netcore_template.Infra.IoC\\react+.netcore_template.Infra.IoC.csproj",
+        "projectName": "react+.netcore_template.Infra.IoC",
+        "projectPath": "C:\\react-.netCore_template\\react+.netcore_template\\react+.netcore_template.Infra.IoC\\react+.netcore_template.Infra.IoC.csproj",
+        "packagesPath": "C:\\Users\\waowao\\.nuget\\packages\\",
+        "outputPath": "C:\\react-.netCore_template\\react+.netcore_template\\react+.netcore_template.Infra.IoC\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
+          "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\",
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\waowao\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "targetAlias": "netcoreapp3.1",
+            "projectReferences": {
+              "C:\\react-.netCore_template\\react+.netcore_template\\react+.netcore_template.Infra.Data\\react+.netcore_template.Infra.Data.csproj": {
+                "projectPath": "C:\\react-.netCore_template\\react+.netcore_template\\react+.netcore_template.Infra.Data\\react+.netcore_template.Infra.Data.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.201\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\react-.netCore_template\\react+.netcore_template\\react+.netcore_template.Web.BenefitCalculator\\react+.netcore_template.Web.BenefitCalculator.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\react-.netCore_template\\react+.netcore_template\\react+.netcore_template.Web.BenefitCalculator\\react+.netcore_template.Web.BenefitCalculator.csproj",
+        "projectName": "react+.netcore_template.Web.BenefitCalculator",
+        "projectPath": "C:\\react-.netCore_template\\react+.netcore_template\\react+.netcore_template.Web.BenefitCalculator\\react+.netcore_template.Web.BenefitCalculator.csproj",
+        "packagesPath": "C:\\Users\\waowao\\.nuget\\packages\\",
+        "outputPath": "C:\\react-.netCore_template\\react+.netcore_template\\react+.netcore_template.Web.BenefitCalculator\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
+          "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\",
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\waowao\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "targetAlias": "netcoreapp3.1",
+            "projectReferences": {
+              "C:\\react-.netCore_template\\react+.netcore_template\\react+.netcore_template.Infra.Cache\\react+.netcore_template.Infra.Cache.csproj": {
+                "projectPath": "C:\\react-.netCore_template\\react+.netcore_template\\react+.netcore_template.Infra.Cache\\react+.netcore_template.Infra.Cache.csproj"
+              },
+              "C:\\react-.netCore_template\\react+.netcore_template\\react+.netcore_template.Infra.Data\\react+.netcore_template.Infra.Data.csproj": {
+                "projectPath": "C:\\react-.netCore_template\\react+.netcore_template\\react+.netcore_template.Infra.Data\\react+.netcore_template.Infra.Data.csproj"
+              },
+              "C:\\react-.netCore_template\\react+.netcore_template\\react+.netcore_template.Infra.IoC\\react+.netcore_template.Infra.IoC.csproj": {
+                "projectPath": "C:\\react-.netCore_template\\react+.netcore_template\\react+.netcore_template.Infra.IoC\\react+.netcore_template.Infra.IoC.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
+          "dependencies": {
+            "AutoMapper.Extensions.Microsoft.DependencyInjection": {
+              "target": "Package",
+              "version": "[8.1.1, )"
+            },
+            "MediatR": {
+              "target": "Package",
+              "version": "[9.0.0, )"
+            },
+            "MediatR.Extensions.Microsoft.DependencyInjection": {
+              "target": "Package",
+              "version": "[9.0.0, )"
+            },
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[3.1.13, )"
+            },
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[3.1.13, )"
+            },
+            "StackExchange.Redis": {
+              "target": "Package",
+              "version": "[2.2.4, )"
+            },
+            "Swashbuckle.AspNetCore": {
+              "target": "Package",
+              "version": "[6.1.1, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.201\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
