@@ -19,6 +19,7 @@
   </ItemGroup>
 
   <ItemGroup>
+    <ProjectReference Include="..\react+.netcore_template.Infra.Cache\react+.netcore_template.Infra.Cache.csproj" />
     <ProjectReference Include="..\react+.netcore_template.Infra.Data\react+.netcore_template.Infra.Data.csproj" />
     <ProjectReference Include="..\react+.netcore_template.Infra.IoC\react+.netcore_template.Infra.IoC.csproj" />
   </ItemGroup>

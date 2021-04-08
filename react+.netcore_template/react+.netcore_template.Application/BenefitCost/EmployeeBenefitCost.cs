@@ -16,7 +16,7 @@ namespace react_.netcore_template.Application.BenefitCost
             _employee = employee;
         }
 
-        public float ApplyDiscount(IDiscount<EmployeeBenefitCost, Employee> discount)
+        public float ApplyDiscount(IDiscount<Employee> discount)
         {
             if (discount.CanBeApplied(_employee))
             {

@@ -3,6 +3,7 @@ using react_.netcore_template.Application.Commons.Cache.Commands;
 using react_.netcore_template.Application.Commons.Employees.Queries;
 using react_.netcore_template.Application.Commons.Interfaces;
 using react_.netcore_template.Application.Commons.Models;
+using react_.netcore_template.Domain.Bus;
 using react_.netcore_template.Domain.Entities;
 using System;
 using System.Collections.Generic;
@@ -30,11 +31,14 @@ namespace react_.netcore_template.Application.Commons.Employees.Commands
 
         private readonly IDependendRepository _dependendRepository;
 
-        public UpdateEmployeeCommandHandler(IMediator mediator, IEmployeeRepository employeeRepository, IDependendRepository dependendRepository)
+        private readonly IEventBus _eventBus;
+
+        public UpdateEmployeeCommandHandler(IMediator mediator, IEmployeeRepository employeeRepository, IDependendRepository dependendRepository, IEventBus eventBus)
         {
             _mediator = mediator;
             _employeeRepository = employeeRepository;
             _dependendRepository = dependendRepository;
+            _eventBus = eventBus;
         }
 
         public async Task<Unit> Handle(UpdateEmployeeCommand request, CancellationToken cancellationToken)

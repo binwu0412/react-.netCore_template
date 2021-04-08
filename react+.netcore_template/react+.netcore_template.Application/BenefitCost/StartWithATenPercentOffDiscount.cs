@@ -5,7 +5,7 @@ using System.Text;
 
 namespace react_.netcore_template.Application.BenefitCost
 {
-    public class StartWithATenPercentOffDiscount : IDiscount<EmployeeBenefitCost, Employee>, IDiscount<DependendBenefitCost, Dependend>
+    public class StartWithATenPercentOffDiscount : IDiscount<Employee>, IDiscount<Dependend>
     {
         private float Rate = 0.1f;
 

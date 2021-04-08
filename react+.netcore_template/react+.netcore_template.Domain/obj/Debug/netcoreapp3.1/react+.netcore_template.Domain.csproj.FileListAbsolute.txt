@@ -1,0 +1,9 @@
+C:\react-.netCore_template\react+.netcore_template\react+.netcore_template.Domain\bin\Debug\netcoreapp3.1\react+.netcore_template.Domain.deps.json
+C:\react-.netCore_template\react+.netcore_template\react+.netcore_template.Domain\bin\Debug\netcoreapp3.1\react+.netcore_template.Domain.dll
+C:\react-.netCore_template\react+.netcore_template\react+.netcore_template.Domain\bin\Debug\netcoreapp3.1\react+.netcore_template.Domain.pdb
+C:\react-.netCore_template\react+.netcore_template\react+.netcore_template.Domain\obj\Debug\netcoreapp3.1\react+.netcore_template.Domain.csprojAssemblyReference.cache
+C:\react-.netCore_template\react+.netcore_template\react+.netcore_template.Domain\obj\Debug\netcoreapp3.1\react+.netcore_template.Domain.AssemblyInfoInputs.cache
+C:\react-.netCore_template\react+.netcore_template\react+.netcore_template.Domain\obj\Debug\netcoreapp3.1\react+.netcore_template.Domain.AssemblyInfo.cs
+C:\react-.netCore_template\react+.netcore_template\react+.netcore_template.Domain\obj\Debug\netcoreapp3.1\react+.netcore_template.Domain.csproj.CoreCompileInputs.cache
+C:\react-.netCore_template\react+.netcore_template\react+.netcore_template.Domain\obj\Debug\netcoreapp3.1\react+.netcore_template.Domain.dll
+C:\react-.netCore_template\react+.netcore_template\react+.netcore_template.Domain\obj\Debug\netcoreapp3.1\react+.netcore_template.Domain.pdb

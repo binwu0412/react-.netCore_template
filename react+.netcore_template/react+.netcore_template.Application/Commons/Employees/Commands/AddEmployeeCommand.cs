@@ -21,15 +21,13 @@ namespace react_.netcore_template.Application.Commons.Employees.Commands
 
     public class AddEmployeeCommandHandler : IRequestHandler<AddEmployeeCommand>
     {
-        private readonly ICacheService _cacheService;
 
         private readonly IEmployeeRepository _employeeRepository;
 
         private readonly IMediator _mediator;
 
-        public AddEmployeeCommandHandler(ICacheService cacheService, IEmployeeRepository employeeRepository, IMediator mediator)
+        public AddEmployeeCommandHandler(IEmployeeRepository employeeRepository, IMediator mediator)
         {
-            _cacheService = cacheService;
             _employeeRepository = employeeRepository;
             _mediator = mediator;
         }

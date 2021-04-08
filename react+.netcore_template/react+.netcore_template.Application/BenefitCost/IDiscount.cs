@@ -4,7 +4,7 @@ using System.Text;
 
 namespace react_.netcore_template.Application.BenefitCost
 {
-    public interface IDiscount<T, U> where T : IDiscountApplicable<U> where U : class
+    public interface IDiscount<U> where U : class
     {
         bool CanBeApplied(U target);
         float GetDiscount(float benefitCost);

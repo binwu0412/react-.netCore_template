@@ -3,3 +3,15 @@ C:\react-.netCore_template\react+.netcore_template\react+.netcore_template.Infra
 C:\react-.netCore_template\react+.netcore_template\react+.netcore_template.Infra.Data\obj\Debug\netcoreapp3.1\react+.netcore_template.Infra.Data.csprojAssemblyReference.cache
 C:\react-.netCore_template\react+.netcore_template\react+.netcore_template.Infra.Data\obj\Debug\netcoreapp3.1\react+.netcore_template.Infra.Data.AssemblyInfoInputs.cache
 C:\react-.netCore_template\react+.netcore_template\react+.netcore_template.Infra.Data\obj\Debug\netcoreapp3.1\react+.netcore_template.Infra.Data.AssemblyInfo.cs
+C:\react-.netCore_template\react+.netcore_template\react+.netcore_template.Infra.Data\bin\Debug\netcoreapp3.1\react+.netcore_template.Infra.Data.deps.json
+C:\react-.netCore_template\react+.netcore_template\react+.netcore_template.Infra.Data\bin\Debug\netcoreapp3.1\react+.netcore_template.Infra.Data.runtimeconfig.json
+C:\react-.netCore_template\react+.netcore_template\react+.netcore_template.Infra.Data\bin\Debug\netcoreapp3.1\react+.netcore_template.Infra.Data.runtimeconfig.dev.json
+C:\react-.netCore_template\react+.netcore_template\react+.netcore_template.Infra.Data\bin\Debug\netcoreapp3.1\react+.netcore_template.Infra.Data.dll
+C:\react-.netCore_template\react+.netcore_template\react+.netcore_template.Infra.Data\bin\Debug\netcoreapp3.1\react+.netcore_template.Infra.Data.pdb
+C:\react-.netCore_template\react+.netcore_template\react+.netcore_template.Infra.Data\bin\Debug\netcoreapp3.1\react+.netcore_template.Application.pdb
+C:\react-.netCore_template\react+.netcore_template\react+.netcore_template.Infra.Data\bin\Debug\netcoreapp3.1\react+.netcore_template.Domain.pdb
+C:\react-.netCore_template\react+.netcore_template\react+.netcore_template.Infra.Data\obj\Debug\netcoreapp3.1\react+.netcore_template.Infra.Data.csproj.CoreCompileInputs.cache
+C:\react-.netCore_template\react+.netcore_template\react+.netcore_template.Infra.Data\obj\Debug\netcoreapp3.1\react+.netcore_template.Infra.Data.csproj.CopyComplete
+C:\react-.netCore_template\react+.netcore_template\react+.netcore_template.Infra.Data\obj\Debug\netcoreapp3.1\react+.netcore_template.Infra.Data.dll
+C:\react-.netCore_template\react+.netcore_template\react+.netcore_template.Infra.Data\obj\Debug\netcoreapp3.1\react+.netcore_template.Infra.Data.pdb
+C:\react-.netCore_template\react+.netcore_template\react+.netcore_template.Infra.Data\obj\Debug\netcoreapp3.1\react+.netcore_template.Infra.Data.genruntimeconfig.cache

@@ -1,4 +1,5 @@
-﻿using react_.netcore_template.Domain.Entities;
+﻿using react_.netcore_template.Application.Commons.Models;
+using react_.netcore_template.Domain.Entities;
 using System;
 using System.Collections.Generic;
 using System.Text;

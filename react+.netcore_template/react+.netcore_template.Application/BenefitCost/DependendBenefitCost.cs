@@ -16,7 +16,7 @@ namespace react_.netcore_template.Application.BenefitCost
             _dependend = dependend;
         }
 
-        public float ApplyDiscount(IDiscount<DependendBenefitCost, Dependend> discount)
+        public float ApplyDiscount(IDiscount<Dependend> discount)
         {
             if (discount.CanBeApplied(_dependend))
             {

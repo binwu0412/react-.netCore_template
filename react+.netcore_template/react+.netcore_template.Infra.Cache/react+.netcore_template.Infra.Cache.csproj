@@ -5,4 +5,13 @@
     <RootNamespace>react_.netcore_template.Infra.Cache</RootNamespace>
   </PropertyGroup>
 
+  <ItemGroup>
+    <PackageReference Include="Newtonsoft.Json" Version="13.0.1" />
+    <PackageReference Include="StackExchange.Redis" Version="2.2.4" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\react+.netcore_template.Application\react+.netcore_template.Application.csproj" />
+  </ItemGroup>
+
 </Project>

@@ -8,7 +8,6 @@ using react_.netcore_template.Infra.Data.Context;
 using System;
 using System.Collections.Generic;
 using System.Linq;
-using System.Text;
 using System.Threading.Tasks;
 
 namespace react_.netcore_template.Infra.Data.Repositories

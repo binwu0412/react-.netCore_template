@@ -1,8 +1,5 @@
 ﻿using Microsoft.EntityFrameworkCore;
 using react_.netcore_template.Domain.Entities;
-using System;
-using System.Collections.Generic;
-using System.Text;
 
 namespace react_.netcore_template.Infra.Data.Context
 {

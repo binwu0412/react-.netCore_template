@@ -1,0 +1,14 @@
+{
+  "version": 2,
+  "dgSpecHash": "TP6CdWIf5SXMVfiJSyMMPEYAJyo5f2Ga6ZaGVpwi+zR49DoI+NzYQZsML0VK3tWpdqvUVQnBMegmZWxAtlfv3g==",
+  "success": true,
+  "projectFilePath": "C:\\react-.netCore_template\\react+.netcore_template\\react-.netcore_template.Infra.Bus\\react-.netcore_template.Infra.Bus.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\waowao\\.nuget\\packages\\microsoft.extensions.logging.abstractions\\5.0.0\\microsoft.extensions.logging.abstractions.5.0.0.nupkg.sha512",
+    "C:\\Users\\waowao\\.nuget\\packages\\newtonsoft.json\\13.0.1\\newtonsoft.json.13.0.1.nupkg.sha512",
+    "C:\\Users\\waowao\\.nuget\\packages\\rabbitmq.client\\6.2.1\\rabbitmq.client.6.2.1.nupkg.sha512",
+    "C:\\Users\\waowao\\.nuget\\packages\\system.memory\\4.5.4\\system.memory.4.5.4.nupkg.sha512",
+    "C:\\Users\\waowao\\.nuget\\packages\\system.threading.channels\\4.7.1\\system.threading.channels.4.7.1.nupkg.sha512"
+  ],
+  "logs": []
+}
