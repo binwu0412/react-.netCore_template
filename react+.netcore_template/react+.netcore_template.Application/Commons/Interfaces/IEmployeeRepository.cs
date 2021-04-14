@@ -16,7 +16,7 @@ namespace react_.netcore_template.Application.Commons.Interfaces
         Task<List<EmployeeDto>> GetAllAsync();
 
         Task<Employee> GetEmployeeWithDependendAsync(int employeeId);
-
+        void GetPaginatedSearchListAsync();
         Task<PaginatedList<EmployeeDto>> GetPaginatedSearchListAsync(int pageSize, string searchString);
 
         Task<PaginatedList<EmployeeDto>> GetPaginedListAsync(int pageNumber, int pageSize);

@@ -21,8 +21,8 @@ namespace react_.netcore_template.Application.BenefitCost
 
         public float GetDiscount(float benefitCost)
         {
+            if (benefitCost < 0) throw new ArgumentException();
             return benefitCost * Rate;
         }
-
     }
 }

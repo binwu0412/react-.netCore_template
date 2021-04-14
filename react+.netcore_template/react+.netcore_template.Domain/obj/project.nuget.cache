@@ -1,8 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "lGiM55M879pEQIZqPsC+DbQV0aFerjtdNY6xW3n87Af7wbeb8/OIj9daYd/0Ge1hjxB8CPLVwrHHvXfjP9SPHQ==",
+  "dgSpecHash": "DHrO4mhM/+8NGMZfQrR0Hp1VFK01BSaNYMxzxBx/qpIfacnbSzN0aAdcPi7BjMQF/XY3eNOfdfvXFws35+D3sg==",
   "success": true,
-  "projectFilePath": "C:\\react-.netCore_template\\react+.netcore_template\\react+.netcore_template.Domain\\react+.netcore_template.Domain.csproj",
-  "expectedPackageFiles": [],
+  "projectFilePath": "/Users/wuchwei/Documents/GitHub/react-.netCore_template/react+.netcore_template/react+.netcore_template.Domain/react+.netcore_template.Domain.csproj",
+  "expectedPackageFiles": [
+    "/Users/wuchwei/.nuget/packages/microsoft.aspnetcore.app.ref/3.1.10/microsoft.aspnetcore.app.ref.3.1.10.nupkg.sha512"
+  ],
   "logs": []
 }

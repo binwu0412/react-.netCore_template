@@ -14,6 +14,7 @@ namespace react_.netcore_template.Application.BenefitCost
             var employeeCost = new EmployeeBenefitCost(employee);
             var employeeDiscountAmount = employeeCost.ApplyDiscount(new StartWithATenPercentOffDiscount());
 
+
             var dependendCostAmount = 0f;
             var dependentDiscountAmount = 0f;
             for (var i = 0; i < dependends.Count; i++)
@@ -25,13 +26,13 @@ namespace react_.netcore_template.Application.BenefitCost
 
             //if (EmployeeWage.payPeriods == 0)
             //{
-            //    throw new DivideByZeroException("Employee pay period can't be negative or 0.");
+            //    throw new DivideByZeroException("Employee pay period can't be 0.");
             //}
+
             //if (EmployeeWage.payPeriods < 0)
             //{
             //    throw new Exception("Pay period can't be negative number.");
             //}
-
 
             // TO-DO: confirm whether paycheck can be negative
             return new BenefitCostPreviewDto

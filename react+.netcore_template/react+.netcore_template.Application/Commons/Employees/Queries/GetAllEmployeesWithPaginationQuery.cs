@@ -32,8 +32,8 @@ namespace react_.netcore_template.Application.Commons.Employees.Queries
 
         public async Task<PaginatedList<EmployeeDto>> Handle(GetAllEmployeesWithPaginationQuery request, CancellationToken cancellationToken)
         {
-            //var result = await _cacheService.GetCachedAsync<PaginatedList<EmployeeDto>>(request.GetCacheKey());
-            //if (result != null) return result; 
+            var result = await _cacheService.GetCachedAsync<PaginatedList<EmployeeDto>>(request.GetCacheKey());
+            if (result != null) return result;
 
             var employeeDtoList = await _employeeRepository.GetPaginedListAsync(request.PageNumber, request.PageSize);
             await _cacheService.CacheAsync(request.GetCacheKey(), employeeDtoList);

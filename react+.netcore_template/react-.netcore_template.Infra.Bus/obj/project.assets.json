@@ -192,44 +192,36 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\waowao\\.nuget\\packages\\": {},
-    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {},
-    "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\": {},
-    "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
+    "/Users/wuchwei/.nuget/packages/": {},
+    "/usr/local/share/dotnet/sdk/NuGetFallbackFolder": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\react-.netCore_template\\react+.netcore_template\\react-.netcore_template.Infra.Bus\\react-.netcore_template.Infra.Bus.csproj",
+      "projectUniqueName": "/Users/wuchwei/Documents/GitHub/react-.netCore_template/react+.netcore_template/react-.netcore_template.Infra.Bus/react-.netcore_template.Infra.Bus.csproj",
       "projectName": "react-.netcore_template.Infra.Bus",
-      "projectPath": "C:\\react-.netCore_template\\react+.netcore_template\\react-.netcore_template.Infra.Bus\\react-.netcore_template.Infra.Bus.csproj",
-      "packagesPath": "C:\\Users\\waowao\\.nuget\\packages\\",
-      "outputPath": "C:\\react-.netCore_template\\react+.netcore_template\\react-.netcore_template.Infra.Bus\\obj\\",
+      "projectPath": "/Users/wuchwei/Documents/GitHub/react-.netCore_template/react+.netcore_template/react-.netcore_template.Infra.Bus/react-.netcore_template.Infra.Bus.csproj",
+      "packagesPath": "/Users/wuchwei/.nuget/packages/",
+      "outputPath": "/Users/wuchwei/Documents/GitHub/react-.netCore_template/react+.netcore_template/react-.netcore_template.Infra.Bus/obj/",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
-        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
-        "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\",
-        "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        "/usr/local/share/dotnet/sdk/NuGetFallbackFolder"
       ],
       "configFilePaths": [
-        "C:\\Users\\waowao\\AppData\\Roaming\\NuGet\\NuGet.Config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+        "/Users/wuchwei/.config/NuGet/NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "netcoreapp3.1"
       ],
       "sources": {
-        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
         "netcoreapp3.1": {
           "targetAlias": "netcoreapp3.1",
           "projectReferences": {
-            "C:\\react-.netCore_template\\react+.netcore_template\\react+.netcore_template.Domain\\react+.netcore_template.Domain.csproj": {
-              "projectPath": "C:\\react-.netCore_template\\react+.netcore_template\\react+.netcore_template.Domain\\react+.netcore_template.Domain.csproj"
+            "/Users/wuchwei/Documents/GitHub/react-.netCore_template/react+.netcore_template/react+.netcore_template.Domain/react+.netcore_template.Domain.csproj": {
+              "projectPath": "/Users/wuchwei/Documents/GitHub/react-.netCore_template/react+.netcore_template/react+.netcore_template.Domain/react+.netcore_template.Domain.csproj"
             }
           }
         }
@@ -267,12 +259,18 @@
         ],
         "assetTargetFallback": true,
         "warn": true,
+        "downloadDependencies": [
+          {
+            "name": "Microsoft.AspNetCore.App.Ref",
+            "version": "[3.1.10, 3.1.10]"
+          }
+        ],
         "frameworkReferences": {
           "Microsoft.NETCore.App": {
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.201\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/5.0.201/RuntimeIdentifierGraph.json"
       }
     }
   }

@@ -1,0 +1,64 @@
+﻿<Properties StartupConfiguration="{A6912B28-BC57-4DE6-8BB2-62611CAA59E2}|Unit Tests">
+  <MonoDevelop.Ide.ItemProperties.Test PreferredExecutionTarget="MonoDevelop.Default" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="react+.netcore_template.Application/Commons/Employees/Queries/GetAllEmployeesWithPaginationQuery.cs">
+    <Files>
+      <File FileName="Test/Application/Commons/Employees/Queries/GetEmployeeWithIdQueryUnitTest.cs" Line="32" Column="15" />
+      <File FileName="Test/Application/Commons/Employees/Queries/GetSearchEmployeesWithPaginationQureyUnitTest.cs" Line="1" Column="1" />
+      <File FileName="Test/Application/Commons/Employees/Queries/GetAllEmployeesWithPaginationQueryUnitTest.cs" Line="28" Column="10" />
+      <File FileName="react+.netcore_template.Application/Commons/Employees/Queries/GetAllEmployeesWithPaginationQuery.cs" Line="1" Column="1" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="react+.netcore_template" expanded="True">
+            <Node name="Application" expanded="True">
+              <Node name="react+.netcore_template.Application" expanded="True">
+                <Node name="Commons" expanded="True">
+                  <Node name="Employees" expanded="True">
+                    <Node name="Queries" expanded="True">
+                      <Node name="GetAllEmployeesWithPaginationQuery.cs" selected="True" />
+                    </Node>
+                  </Node>
+                </Node>
+              </Node>
+            </Node>
+            <Node name="Domain" expanded="True" />
+            <Node name="Test" expanded="True">
+              <Node name="Application" expanded="True">
+                <Node name="Commons" expanded="True">
+                  <Node name="Employees" expanded="True">
+                    <Node name="Queries" expanded="True" />
+                  </Node>
+                </Node>
+              </Node>
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+      <Pad Id="MonoDevelop.UnitTesting.TestPad">
+        <State name="__root__">
+          <Node name="react+.netcore_template" expanded="True">
+            <Node name="Test" expanded="True">
+              <Node name="Test.Application.BenefitCost" expanded="True">
+                <Node name="StartWithATenPercentOffDiscountUnitTest" expanded="True" />
+              </Node>
+              <Node name="Test.Application.Commons.Employees.Queries" expanded="True">
+                <Node name="GetAllEmployeesWithPaginationQueryUnitTest" expanded="True">
+                  <Node name="Handle_HasCache_ExpectMockAllEmployeeDtoWithPaginatedListQurey" selected="True" />
+                </Node>
+                <Node name="GetEmployeeWithIdQueryUnitTest" expanded="True" />
+              </Node>
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.ItemProperties.Web.react_22B.netcore__template.Web.BenefitCalculator PreferredExecutionTarget="/Applications/Google Chrome.app" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MultiItemStartupConfigurations />
+</Properties>

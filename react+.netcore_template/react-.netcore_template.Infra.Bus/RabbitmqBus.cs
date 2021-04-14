@@ -16,13 +16,12 @@ namespace react_.netcore_template.Infra.Bus
     {
         private readonly Dictionary<string, List<Type>> _handlers;
         private readonly List<Type> _eventTypes;
-        private readonly ILogger _logger;
+        //private readonly ILogger _logger;
 
-        public RabbitmqBus(ILogger logger)
+        public RabbitmqBus()
         {
             _handlers = new Dictionary<string, List<Type>>();
             _eventTypes = new List<Type>();
-            _logger = logger;
         }
 
         public void Publish<T>(T @event) where T : Event
@@ -100,7 +99,7 @@ namespace react_.netcore_template.Infra.Bus
             }
             catch (Exception ex)
             {
-                _logger.LogInformation($"Failed to process event {eventname} at {DateTime.Now}");
+                //_logger.LogInformation($"Failed to process event {eventname} at {DateTime.Now}");
             }
         }
 
