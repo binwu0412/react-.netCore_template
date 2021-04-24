@@ -6,9 +6,9 @@ using System.Text;
 
 namespace react_.netcore_template.Application.BenefitCost
 {
-    public class BenefitCostCalculator
+    public class BenefitCostCalculator : IBenefitCostCalculator
     {
-        public static BenefitCostPreviewDto GetBenefitCostPreview(Employee employee, IList<Dependend> dependends)
+        public BenefitCostPreviewDto GetBenefitCostPreview(Employee employee, IList<Dependend> dependends)
         {
 
             var employeeCost = new EmployeeBenefitCost(employee);

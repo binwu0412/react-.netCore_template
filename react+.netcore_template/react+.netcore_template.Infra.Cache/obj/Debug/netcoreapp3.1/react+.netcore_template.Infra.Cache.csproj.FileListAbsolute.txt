@@ -12,3 +12,17 @@ C:/react-.netCore_template/react+.netcore_template/react+.netcore_template.Infra
 C:/react-.netCore_template/react+.netcore_template/react+.netcore_template.Infra.Cache/obj/Debug/netcoreapp3.1/react+.netcore_template.Infra.Cache.csproj.CopyComplete
 C:/react-.netCore_template/react+.netcore_template/react+.netcore_template.Infra.Cache/obj/Debug/netcoreapp3.1/react+.netcore_template.Infra.Cache.dll
 C:/react-.netCore_template/react+.netcore_template/react+.netcore_template.Infra.Cache/obj/Debug/netcoreapp3.1/react+.netcore_template.Infra.Cache.pdb
+/Users/wuchwei/Documents/GitHub/react-.netCore_template/react+.netcore_template/react+.netcore_template.Infra.Cache/bin/Debug/netcoreapp3.1/react+.netcore_template.Infra.Cache.deps.json
+/Users/wuchwei/Documents/GitHub/react-.netCore_template/react+.netcore_template/react+.netcore_template.Infra.Cache/bin/Debug/netcoreapp3.1/react+.netcore_template.Infra.Cache.dll
+/Users/wuchwei/Documents/GitHub/react-.netCore_template/react+.netcore_template/react+.netcore_template.Infra.Cache/bin/Debug/netcoreapp3.1/react+.netcore_template.Infra.Cache.pdb
+/Users/wuchwei/Documents/GitHub/react-.netCore_template/react+.netcore_template/react+.netcore_template.Infra.Cache/bin/Debug/netcoreapp3.1/react+.netcore_template.Application.dll
+/Users/wuchwei/Documents/GitHub/react-.netCore_template/react+.netcore_template/react+.netcore_template.Infra.Cache/bin/Debug/netcoreapp3.1/react+.netcore_template.Domain.dll
+/Users/wuchwei/Documents/GitHub/react-.netCore_template/react+.netcore_template/react+.netcore_template.Infra.Cache/bin/Debug/netcoreapp3.1/react+.netcore_template.Application.pdb
+/Users/wuchwei/Documents/GitHub/react-.netCore_template/react+.netcore_template/react+.netcore_template.Infra.Cache/bin/Debug/netcoreapp3.1/react+.netcore_template.Domain.pdb
+/Users/wuchwei/Documents/GitHub/react-.netCore_template/react+.netcore_template/react+.netcore_template.Infra.Cache/obj/Debug/netcoreapp3.1/react+.netcore_template.Infra.Cache.csprojAssemblyReference.cache
+/Users/wuchwei/Documents/GitHub/react-.netCore_template/react+.netcore_template/react+.netcore_template.Infra.Cache/obj/Debug/netcoreapp3.1/react+.netcore_template.Infra.Cache.AssemblyInfoInputs.cache
+/Users/wuchwei/Documents/GitHub/react-.netCore_template/react+.netcore_template/react+.netcore_template.Infra.Cache/obj/Debug/netcoreapp3.1/react+.netcore_template.Infra.Cache.AssemblyInfo.cs
+/Users/wuchwei/Documents/GitHub/react-.netCore_template/react+.netcore_template/react+.netcore_template.Infra.Cache/obj/Debug/netcoreapp3.1/react+.netcore_template.Infra.Cache.csproj.CoreCompileInputs.cache
+/Users/wuchwei/Documents/GitHub/react-.netCore_template/react+.netcore_template/react+.netcore_template.Infra.Cache/obj/Debug/netcoreapp3.1/react+.netcore_template.Infra.Cache.csproj.CopyComplete
+/Users/wuchwei/Documents/GitHub/react-.netCore_template/react+.netcore_template/react+.netcore_template.Infra.Cache/obj/Debug/netcoreapp3.1/react+.netcore_template.Infra.Cache.dll
+/Users/wuchwei/Documents/GitHub/react-.netCore_template/react+.netcore_template/react+.netcore_template.Infra.Cache/obj/Debug/netcoreapp3.1/react+.netcore_template.Infra.Cache.pdb

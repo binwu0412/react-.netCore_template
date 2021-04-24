@@ -1,5 +1,6 @@
 ﻿using MediatR;
 using Microsoft.Extensions.DependencyInjection;
+using react_.netcore_template.Application.BenefitCost;
 using react_.netcore_template.Application.Commons.BenefitCost.Queries;
 using react_.netcore_template.Application.Commons.Cache.Commands;
 using react_.netcore_template.Application.Commons.Dependends.Queries;
@@ -39,6 +40,9 @@ namespace react_.netcore_template.Infra.IoC
             services.AddScoped<IEmployeeRepository, EmployeeRepository>();
             services.AddScoped<IDependendRepository, DependendRepository>();
             services.AddScoped<EmployeeDbContext>();
+
+            // others
+            services.AddTransient<IBenefitCostCalculator, BenefitCostCalculator>();
         }
     }
 }

@@ -1,0 +1,12 @@
+/Users/wuchwei/Documents/GitHub/react-.netCore_template/react+.netcore_template/react-.netcore_template.Infra.Bus/bin/Debug/netcoreapp3.1/react-.netcore_template.Infra.Bus.deps.json
+/Users/wuchwei/Documents/GitHub/react-.netCore_template/react+.netcore_template/react-.netcore_template.Infra.Bus/bin/Debug/netcoreapp3.1/react-.netcore_template.Infra.Bus.dll
+/Users/wuchwei/Documents/GitHub/react-.netCore_template/react+.netcore_template/react-.netcore_template.Infra.Bus/bin/Debug/netcoreapp3.1/react-.netcore_template.Infra.Bus.pdb
+/Users/wuchwei/Documents/GitHub/react-.netCore_template/react+.netcore_template/react-.netcore_template.Infra.Bus/bin/Debug/netcoreapp3.1/react+.netcore_template.Domain.dll
+/Users/wuchwei/Documents/GitHub/react-.netCore_template/react+.netcore_template/react-.netcore_template.Infra.Bus/bin/Debug/netcoreapp3.1/react+.netcore_template.Domain.pdb
+/Users/wuchwei/Documents/GitHub/react-.netCore_template/react+.netcore_template/react-.netcore_template.Infra.Bus/obj/Debug/netcoreapp3.1/react-.netcore_template.Infra.Bus.csprojAssemblyReference.cache
+/Users/wuchwei/Documents/GitHub/react-.netCore_template/react+.netcore_template/react-.netcore_template.Infra.Bus/obj/Debug/netcoreapp3.1/react-.netcore_template.Infra.Bus.AssemblyInfoInputs.cache
+/Users/wuchwei/Documents/GitHub/react-.netCore_template/react+.netcore_template/react-.netcore_template.Infra.Bus/obj/Debug/netcoreapp3.1/react-.netcore_template.Infra.Bus.AssemblyInfo.cs
+/Users/wuchwei/Documents/GitHub/react-.netCore_template/react+.netcore_template/react-.netcore_template.Infra.Bus/obj/Debug/netcoreapp3.1/react-.netcore_template.Infra.Bus.csproj.CoreCompileInputs.cache
+/Users/wuchwei/Documents/GitHub/react-.netCore_template/react+.netcore_template/react-.netcore_template.Infra.Bus/obj/Debug/netcoreapp3.1/react-.netcore_template.Infra.Bus.csproj.CopyComplete
+/Users/wuchwei/Documents/GitHub/react-.netCore_template/react+.netcore_template/react-.netcore_template.Infra.Bus/obj/Debug/netcoreapp3.1/react-.netcore_template.Infra.Bus.dll
+/Users/wuchwei/Documents/GitHub/react-.netCore_template/react+.netcore_template/react-.netcore_template.Infra.Bus/obj/Debug/netcoreapp3.1/react-.netcore_template.Infra.Bus.pdb

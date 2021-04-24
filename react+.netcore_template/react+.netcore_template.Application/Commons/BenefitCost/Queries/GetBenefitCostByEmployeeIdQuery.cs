@@ -23,11 +23,13 @@ namespace react_.netcore_template.Application.Commons.BenefitCost.Queries
     {
         private readonly IEmployeeRepository _employeeRepository;
         private readonly ICacheService _cacheService;
+        private readonly IBenefitCostCalculator _benefitCostCalculator;
 
-        public GetBenefitCostByEmployeeIdQueryHandler(IEmployeeRepository employeeRepository, ICacheService cacheService)
+        public GetBenefitCostByEmployeeIdQueryHandler(IEmployeeRepository employeeRepository, ICacheService cacheService, IBenefitCostCalculator benefitCostCalculator)
         {
             _employeeRepository = employeeRepository;
             _cacheService = cacheService;
+            _benefitCostCalculator = benefitCostCalculator;
         }
 
         public async Task<BenefitCostPreviewDto> Handle(GetBenefitCostByEmployeeIdQuery request, CancellationToken cancellationToken)
@@ -36,7 +38,7 @@ namespace react_.netcore_template.Application.Commons.BenefitCost.Queries
             if (result != null) return result;
 
             var employeeWithDependend = await _employeeRepository.GetEmployeeWithDependendAsync(request.EmployeeId);
-            var benefitCost = BenefitCostCalculator.GetBenefitCostPreview(employeeWithDependend, employeeWithDependend.Dependends);
+            var benefitCost = _benefitCostCalculator.GetBenefitCostPreview(employeeWithDependend, employeeWithDependend.Dependends);
 
             await _cacheService.CacheAsync(request.GetCacheKey(), benefitCost);
 

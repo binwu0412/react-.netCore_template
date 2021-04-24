@@ -26,23 +26,22 @@ namespace Test.Application.Commons.Employees.Queries
         [SetUp]
         public void Reset()
         {
-            _mockEmployeeRepo.Invocations.Clear();
-            _mockCacheService.Invocations.Clear();
+            _mockEmployeeRepo.Reset();
+            _mockCacheService.Reset();
         }
 
         [Test]
         public async Task Handle_HasCache_ExpectMockAllEmployeeDtoWithPaginatedListQurey()
-        {
+        { 
             var testResult = new PaginatedList<EmployeeDto>(new List<EmployeeDto>(), 1, 1, 5);
             _mockEmployeeRepo.Setup(m => m.GetPaginedListAsync(1, 5)).ReturnsAsync(testResult);
-            _mockCacheService.Setup(m => m.GetCachedAsync<PaginatedList<EmployeeDto>>("GetAllEmployeesWithPaginationQuery"))
+            var testQuery = new GetAllEmployeesWithPaginationQuery { PageNumber = 1, PageSize = 5 };
+            _mockCacheService.Setup(m => m.GetCachedAsync<PaginatedList<EmployeeDto>>(testQuery.GetCacheKey()))
                 .ReturnsAsync(testResult);
-
-
             var _handle = new GetAllEmployeesWithPaginationQueryHandler(_mockEmployeeRepo.Object, _mockCacheService.Object);
 
             var sut = await _handle.Handle(
-                new GetAllEmployeesWithPaginationQuery { PageNumber = 1, PageSize = 5 },
+                testQuery,
                 new CancellationToken());
 
             _mockEmployeeRepo.Verify(m =>

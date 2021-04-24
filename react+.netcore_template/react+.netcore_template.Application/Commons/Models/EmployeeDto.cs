@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Text;
+using System.Threading.Tasks;
 
 namespace react_.netcore_template.Application.Commons.Models
 {
@@ -15,5 +16,7 @@ namespace react_.netcore_template.Application.Commons.Models
         public string Department { get; set; }
 
         public List<DependendDto> Dependends { get; set; }
+
+
     }
 }

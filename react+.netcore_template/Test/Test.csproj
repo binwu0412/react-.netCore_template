@@ -19,6 +19,13 @@
     <Folder Include="Application\Commons\" />
     <Folder Include="Application\Commons\Employees\" />
     <Folder Include="Application\Commons\Employees\Queries\" />
+    <Folder Include="Application\Commons\BenefitCost\" />
+    <Folder Include="Application\Commons\BenefitCost\Queries\" />
+    <Folder Include="Application\Commons\Dependends\" />
+    <Folder Include="Application\Commons\Dependends\Queries\" />
+    <Folder Include="Application\Commons\Cache\" />
+    <Folder Include="Application\Commons\Cache\Commands\" />
+    <Folder Include="Application\Commons\Employees\Commands\" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\react+.netcore_template.Application\react+.netcore_template.Application.csproj" />
