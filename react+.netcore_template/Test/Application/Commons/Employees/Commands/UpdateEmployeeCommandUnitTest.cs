@@ -43,7 +43,7 @@ namespace Test.Application.Commons.Employees.Commands
         public async Task Update_UpdateEmployeeAsyncExpectHaveBeenCalled()
         {
             var testEmployee = new Employee() { Id = 1, Name = "name", Title = "Title"};
-            _mockEmployeeRepository.Setup(m => m.UpdateAsync(testEmployee));
+            _mockEmployeeRepository.Setup(m => m.UpdateAsync(testEmployee)); // Callback ?
             var testUpdateCommand = new UpdateEmployeeCommand() { EmployeeDto = new EmployeeDto()
                 { Id = testEmployee.Id, Name = testEmployee.Name, Title = testEmployee.Title } };
             for (var i = 0; i < testUpdateCommand.GetFollowupRequests().Count; i++)

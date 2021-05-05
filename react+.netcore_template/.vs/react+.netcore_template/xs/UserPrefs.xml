@@ -1,13 +1,13 @@
-﻿<Properties StartupConfiguration="{A6912B28-BC57-4DE6-8BB2-62611CAA59E2}|Unit Tests">
+﻿<Properties StartupConfiguration="{DE0BA2D8-9BE4-4B87-AA56-987A5AEE91BF}|Default">
   <MonoDevelop.Ide.ItemProperties.Test PreferredExecutionTarget="MonoDevelop.Default" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="react+.netcore_template.Application/Commons/Employees/Commands/UpdateEmployeeCommand.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Test/Application/Commons/Employees/Commands/UpdateEmployeeCommandUnitTest.cs">
     <Files>
-      <File FileName="Test/Application/Commons/Employees/Commands/UpdateEmployeeCommandUnitTest.cs" Line="55" Column="59" />
-      <File FileName="react+.netcore_template.Application/Commons/Employees/Commands/UpdateEmployeeCommand.cs" Line="79" Column="41" />
-      <File FileName="Test/Application/Commons/Employees/Commands/AddEmployeeCommanUnitTest.cs" Line="42" Column="13" />
-      <File FileName="react+.netcore_template.Application/Commons/Employees/Commands/AddEmployeeCommand.cs" Line="1" Column="1" />
-      <File FileName="Test/Application/Commons/Employees/Queries/GetAllEmployeesWithPaginationQueryUnitTest.cs" Line="1" Column="1" />
-      <File FileName="Test/Application/Commons/Dependends/Queries/GetAllDependensWithEmployeesIdQueryUnitTest.cs" Line="38" Column="33" />
+      <File FileName="Test/Application/Commons/Employees/Commands/UpdateEmployeeCommandUnitTest.cs" Line="34" Column="28" />
+      <File FileName="react+.netcore_template.Application/Commons/Employees/Commands/UpdateEmployeeCommand.cs" />
+      <File FileName="Test/Application/Commons/Employees/Commands/AddEmployeeCommanUnitTest.cs" />
+      <File FileName="react+.netcore_template.Application/Commons/Employees/Commands/AddEmployeeCommand.cs" />
+      <File FileName="Test/Application/Commons/Employees/Queries/GetAllEmployeesWithPaginationQueryUnitTest.cs" />
+      <File FileName="Test/Application/Commons/Dependends/Queries/GetAllDependensWithEmployeesIdQueryUnitTest.cs" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
@@ -20,9 +20,7 @@
                     <Node name="Queries" expanded="True" />
                   </Node>
                   <Node name="Employees" expanded="True">
-                    <Node name="Commands" expanded="True">
-                      <Node name="UpdateEmployeeCommand.cs" selected="True" />
-                    </Node>
+                    <Node name="Commands" expanded="True" />
                   </Node>
                   <Node name="Models" expanded="True" />
                 </Node>
@@ -35,7 +33,9 @@
                     <Node name="Queries" expanded="True" />
                   </Node>
                   <Node name="Employees" expanded="True">
-                    <Node name="Commands" expanded="True" />
+                    <Node name="Commands" expanded="True">
+                      <Node name="UpdateEmployeeCommandUnitTest.cs" selected="True" />
+                    </Node>
                   </Node>
                 </Node>
               </Node>
@@ -45,26 +45,7 @@
       </Pad>
       <Pad Id="MonoDevelop.UnitTesting.TestPad">
         <State name="__root__">
-          <Node name="react+.netcore_template" expanded="True">
-            <Node name="Test" expanded="True">
-              <Node name="Test.Application.Commons.BenefitCost.Queries" expanded="True">
-                <Node name="GetBenefitCostByEmployeeIdQueryUnitTest" expanded="True" />
-              </Node>
-              <Node name="Test.Application.Commons.Cache.Commands" expanded="True">
-                <Node name="RemoveEmployeesPaginationCacheComandUnitTest" expanded="True" />
-              </Node>
-              <Node name="Test.Application.Commons.Dependends.Queries" expanded="True" />
-              <Node name="Test.Application.Commons.Employees.Commands" expanded="True">
-                <Node name="AddEmployeeCommanUnitTest" expanded="True" />
-                <Node name="UpdateEmployeeCommandUnitTest" expanded="True">
-                  <Node name="Update_UpdateEmployeeAsyncExpectHaveBeenCalled" selected="True" />
-                </Node>
-              </Node>
-              <Node name="Test.Application.Commons.Employees.Queries" expanded="True">
-                <Node name="GetAllEmployeesWithPaginationQueryUnitTest" expanded="True" />
-              </Node>
-            </Node>
-          </Node>
+          <Node name="react+.netcore_template" expanded="True" selected="True" />
         </State>
       </Pad>
     </Pads>
