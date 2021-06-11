@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.31112.23
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Web", "Web", "{B3DA3368-6EF9-478A-9221-BE199C313A4F}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "APIs", "APIs", "{B3DA3368-6EF9-478A-9221-BE199C313A4F}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Application", "Application", "{86254FCC-EF8E-40B7-9AE4-93822BA0FDA3}"
 EndProject
@@ -32,6 +32,8 @@ EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "react-.netcore_template.Infra.Bus", "react-.netcore_template.Infra.Bus\react-.netcore_template.Infra.Bus.csproj", "{B8B0F278-766C-474B-9F54-8706878116C1}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Test", "Test\Test.csproj", "{A6912B28-BC57-4DE6-8BB2-62611CAA59E2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "API.QueuePublisher", "react+.netcore_template.Web.BenefitCalculator\API.QueuePublisher\API.QueuePublisher.csproj", "{3D5AAF71-B6FA-4CA4-B098-1E412DF918AE}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -71,6 +73,10 @@ Global
 		{A6912B28-BC57-4DE6-8BB2-62611CAA59E2}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{A6912B28-BC57-4DE6-8BB2-62611CAA59E2}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{A6912B28-BC57-4DE6-8BB2-62611CAA59E2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3D5AAF71-B6FA-4CA4-B098-1E412DF918AE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3D5AAF71-B6FA-4CA4-B098-1E412DF918AE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3D5AAF71-B6FA-4CA4-B098-1E412DF918AE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3D5AAF71-B6FA-4CA4-B098-1E412DF918AE}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -83,6 +89,7 @@ Global
 		{DE0BA2D8-9BE4-4B87-AA56-987A5AEE91BF} = {B3DA3368-6EF9-478A-9221-BE199C313A4F}
 		{582AA3E4-CA48-45BF-A426-88E8B5B86499} = {3526599E-2EE0-4C86-96ED-F99CF5FAF0BB}
 		{B8B0F278-766C-474B-9F54-8706878116C1} = {D1B0B2EE-FD06-4F95-BB5F-44924DEC72DE}
+		{3D5AAF71-B6FA-4CA4-B098-1E412DF918AE} = {B3DA3368-6EF9-478A-9221-BE199C313A4F}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {C6E6B1D2-13E7-4EC7-B835-672894D73543}

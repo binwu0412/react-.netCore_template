@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "FB7fOwmttQ0iWFBzVR+EfO6JgSW+7ou0rdjxRL11itNtiB0hIgp+6LttjMV2eCgdCCrz89rJg9kAWkUUJk7zhg==",
+  "success": true,
+  "projectFilePath": "/Users/wuchwei/Documents/GitHub/react-.netCore_template/react+.netcore_template/react+.netcore_template.Web.BenefitCalculator/API.QueuePublisher/API.QueuePublisher.csproj",
+  "expectedPackageFiles": [
+    "/Users/wuchwei/.nuget/packages/microsoft.aspnetcore.app.ref/3.1.10/microsoft.aspnetcore.app.ref.3.1.10.nupkg.sha512"
+  ],
+  "logs": []
+}

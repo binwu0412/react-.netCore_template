@@ -1,43 +1,17 @@
 ﻿<Properties StartupConfiguration="{DE0BA2D8-9BE4-4B87-AA56-987A5AEE91BF}|Default">
   <MonoDevelop.Ide.ItemProperties.Test PreferredExecutionTarget="MonoDevelop.Default" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Test/Application/Commons/Employees/Commands/UpdateEmployeeCommandUnitTest.cs">
+  <MonoDevelop.Ide.ItemProperties.APIs.API.QueuePublisher FirstBuild="True" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="react+.netcore_template.Web.BenefitCalculator/API.QueuePublisher/Startup.cs">
     <Files>
-      <File FileName="Test/Application/Commons/Employees/Commands/UpdateEmployeeCommandUnitTest.cs" Line="34" Column="28" />
-      <File FileName="react+.netcore_template.Application/Commons/Employees/Commands/UpdateEmployeeCommand.cs" />
-      <File FileName="Test/Application/Commons/Employees/Commands/AddEmployeeCommanUnitTest.cs" />
-      <File FileName="react+.netcore_template.Application/Commons/Employees/Commands/AddEmployeeCommand.cs" />
-      <File FileName="Test/Application/Commons/Employees/Queries/GetAllEmployeesWithPaginationQueryUnitTest.cs" />
-      <File FileName="Test/Application/Commons/Dependends/Queries/GetAllDependensWithEmployeesIdQueryUnitTest.cs" />
+      <File FileName="react+.netcore_template.Web.BenefitCalculator/API.QueuePublisher/Startup.cs" Line="10" Column="48" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
           <Node name="react+.netcore_template" expanded="True">
-            <Node name="Application" expanded="True">
-              <Node name="react+.netcore_template.Application" expanded="True">
-                <Node name="Commons" expanded="True">
-                  <Node name="Dependends" expanded="True">
-                    <Node name="Queries" expanded="True" />
-                  </Node>
-                  <Node name="Employees" expanded="True">
-                    <Node name="Commands" expanded="True" />
-                  </Node>
-                  <Node name="Models" expanded="True" />
-                </Node>
-              </Node>
-            </Node>
-            <Node name="Test" expanded="True">
-              <Node name="Application" expanded="True">
-                <Node name="Commons" expanded="True">
-                  <Node name="Dependends" expanded="True">
-                    <Node name="Queries" expanded="True" />
-                  </Node>
-                  <Node name="Employees" expanded="True">
-                    <Node name="Commands" expanded="True">
-                      <Node name="UpdateEmployeeCommandUnitTest.cs" selected="True" />
-                    </Node>
-                  </Node>
-                </Node>
+            <Node name="APIs" expanded="True">
+              <Node name="API.QueuePublisher" expanded="True">
+                <Node name="Startup.cs" selected="True" />
               </Node>
             </Node>
           </Node>
@@ -50,9 +24,9 @@
       </Pad>
     </Pads>
   </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.ItemProperties.APIs.react_22B.netcore__template.Web.BenefitCalculator PreferredExecutionTarget="/Applications/Google Chrome.app" />
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
-  <MonoDevelop.Ide.ItemProperties.Web.react_22B.netcore__template.Web.BenefitCalculator PreferredExecutionTarget="/Applications/Google Chrome.app" />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
     <BreakpointStore />
   </MonoDevelop.Ide.DebuggingService.Breakpoints>

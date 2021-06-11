@@ -43,35 +43,35 @@ namespace Test.Application.Commons.Employees.Commands
         public async Task Update_UpdateEmployeeAsyncExpectHaveBeenCalled()
         {
             var testEmployee = new Employee() { Id = 1, Name = "name", Title = "Title"};
-            _mockEmployeeRepository.Setup(m => m.UpdateAsync(testEmployee)); // Callback ?
+            _mockEmployeeRepository.Setup(m => m.UpdateAsync(testEmployee));
             var testUpdateCommand = new UpdateEmployeeCommand() { EmployeeDto = new EmployeeDto()
-                { Id = testEmployee.Id, Name = testEmployee.Name, Title = testEmployee.Title } };
+                { Id = testEmployee.Id, Name = testEmployee.Name, Title = testEmployee.Title, Dependends = new List<DependendDto>() } };
             for (var i = 0; i < testUpdateCommand.GetFollowupRequests().Count; i++)
             {
                 var request = testUpdateCommand.GetFollowupRequests()[i];
                 _mockMediator.Setup(m => m.Send(request, new CancellationToken()));
             }
-
             var update = new UpdateEmployeeCommandHandler(
                 _mockMediator.Object, _mockEmployeeRepository.Object, _mockDependendRepository.Object, _mockEventBus.Object);
-            await update.(testUpdateCommand, new CancellationToken());
-
+            await update.Handle(testUpdateCommand, new CancellationToken());
 
             _mockEmployeeRepository.Verify(m => m.UpdateAsync(It.Is<Employee>(x =>
             x.Id == testEmployee.Id && x.Name == testEmployee.Name && x.Title == testEmployee.Title)));
-
-            
-
         }
 
         [Test]
-        public async Task Update_UpdateDependendsAsyncExpectHaveBeenCalled()
+        public async Task Update_UpdateUpdateDependendsAsyncExpectHaveBeenCalled()
         {
-            var testDependend = new Dependend() { Id = 1, EmployeeId = 1 };
-            var testUpdate = new List<Dependend>();
-            testUpdate.Add(testDependend);
-            _mockDependendRepository.Setup(m => m.UpdateAndDeleteRangeAsync(testUpdate, 1));
-            
+            var testEmployee = new Employee() { Name = "name", Id = 1 };
+            var testDependends = new List<Dependend>() { };
+            _mockDependendRepository.Setup(m => m.UpdateAndDeleteRangeAsync(testDependends, 1));
+            var testCommand = new UpdateEmployeeCommand() { EmployeeDto = new EmployeeDto() { Dependends = new List<DependendDto>() }};
+
+            var update = new UpdateEmployeeCommandHandler(
+                _mockMediator.Object, _mockEmployeeRepository.Object, _mockDependendRepository.Object, _mockEventBus.Object);
+            await update.Handle(testCommand, new CancellationToken());
+
+            _mockDependendRepository.Verify(m => m.UpdateAndDeleteRangeAsync(It.Is<Dependend>(x => x.EmployeeId == )))
         }
     }
 }

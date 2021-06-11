@@ -42,6 +42,7 @@ namespace react_.netcore_template.Web.BenefitCalculator
                 Assembly.GetAssembly(typeof(MappingProfile)));
 
             services.AddMediatR(typeof(Startup));
+
             RegisterServices(services);
 
             services.AddCors(options => options.AddPolicy("CorsPolicy",
